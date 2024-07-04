@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-container {
+    display: flex;
+    margin-left: 5%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 70px;
+    margin-right: 10%;
+}
+
+.logo-img {
+    width: 85px;
+}
+
+ul {
+    display: flex;
+    gap: 45px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #737079;
+}
