@@ -1,0 +1,54 @@
+.sectionB-folder {
+    width: 1377px;
+    display: flex;
+    flex-direction: row;
+    margin: 100px 0 100px 0;
+    gap: 175px;
+
+}
+
+.more-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.sectionB-images {
+    width: 115px;
+}
+
+.info {
+    width: 459;
+}
+
+h2 {
+    color: #f45c52;
+    font-size: 2.4em;
+    margin-top: -9px;
+    line-height: 59px;
+}
+
+.info-headings {
+    font-size: 1.2em;
+    margin-top: 12px;
+}
+
+.info-headings:hover {
+    color: #ea5d51;
+    cursor: pointer;
+}
+
+.info-paragraphs {
+    width: 200px;
+    margin-top: 8px;
+    line-height: 25px;
+    color: #83818d;
+}
+
+.info-paragraphs03 {
+    width: 230px;
+    margin-top: 8px;
+    line-height: 25px;
+    color: #83818d;
+}
+

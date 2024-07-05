@@ -53,7 +53,7 @@ function sectionA() {
               power of the platforms back into the hands of the people. But is
               it really fulfilling its promise?
             </p>
-            <button></button>
+            <button className="button">READ MORE</button>
           </div>
         </div>
       </div>

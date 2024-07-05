@@ -6,7 +6,6 @@
 
 .nav-container {
     display: flex;
-    margin-left: 5%;
 }
 
 .navbar {
@@ -15,7 +14,6 @@
     align-items: center;
     width: 100%;
     margin-top: 70px;
-    margin-right: 10%;
 }
 
 .logo-img {
@@ -31,4 +29,11 @@ ul {
 a {
     text-decoration: none;
     color: #737079;
+    
+}
+
+a:hover {
+    cursor: pointer;
+    color: rgba(255, 60, 0, 0.89);
+
 }

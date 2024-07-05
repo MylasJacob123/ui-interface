@@ -1,17 +1,17 @@
 .container{
     display: flex;
     gap: 20px;
-    justify-content: center;
-    padding: 20px 100px;
+    margin-top: 35px;
+    margin-bottom: 70px;
 }
 
 .left-container{
-    width: 70%;
+    width: 1010px;
 
 }
 .img-container{
     width: 100%;
-    min-height: 450px;
+    min-height: 430px;
     background-image: url(../assets/images/image-web-3-desktop.jpg);
     background-size: cover;
 }
@@ -19,39 +19,93 @@
 .beneath-img {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 }
 
 .bold {
-    font-size: 2em;
+    font-size: 5.7em;
     font-weight: 750;
+    width: 450px;
+    line-height: 73px;
+    margin-left: -20px;
+    color: #04011b;
 }
 
 .statement {
-    width: 45%;
+    width: 515px;
+    min-height: 150px;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 515px;
 }
 
 .left-container-paragraph {
     color: #83818d;
+    width: 370px;
+    line-height: 27px;
+    font-size: 17px;
+    
 }
 
 .paragraph {
     width: 45%;
 }
 
+.button {
+    width: 185px;
+    height: 55px;
+    background-color: #f15d51;
+    color: #210003;
+    font-weight: 700;
+    border: none;
+    margin-top: 20px;
+}
+
+.button:hover {
+    color: #e1e0e4;
+    background-color: #151422;
+    cursor: pointer;
+}
+
 .right-container{
-    width: 30%;
+    width: 347px;
     min-height: 20vh;
     background-color: #00001a;
+    padding: 30px 20px 0px 20px;
+    margin-bottom: 20px;
 }
 
 h1 {
     color: #eeb35e;
+    font-size: 3em;
+    margin-top: 18px;
+    margin-bottom: 45px;
 }
 
 .right-container-heading {
     color: #f5f5f7;
+    font-size: 22px;
+    line-height: 39px;
+}
+
+.right-container-heading:hover {
+    color: #eeb35e;
+    cursor: pointer;
 }
 
 .right-container-paragraph {
     color: #b1b2c8;
+    line-height: 37px;
+    width: 300px;
+}
+
+hr {
+    height: 1px;
+    border: none;
+    background-color: #83818d;
+    margin: 35px 0px 35px 0px;
 }
